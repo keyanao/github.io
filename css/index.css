@@ -1,0 +1,226 @@
+#face{
+    width: 100%
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: 40px;
+}
+
+h2{
+    font-size: 30px;
+    text-align: center;
+}
+
+.option a:visited {
+    color: blueviolet;
+  }
+
+.option a:active{
+    color: blueviolet;
+    font-size: 21px;
+
+}
+
+  a{
+    text-decoration: none;
+    word-wrap:break-word;
+  }
+
+.header{
+    position: relative;
+}
+
+.option{
+    position: absolute;
+    color: blueviolet;
+    top: 0;
+    left: 10px;
+    font-size: 20px;
+}
+
+.about{
+    display: flex;
+    justify-content: space-around;
+    padding:100px 400px;
+}
+
+#face2{
+    width: 35%
+}
+
+.aa {
+    display: flex;
+    font-size: 20px;
+ }
+
+ .introduction_element{
+    font-weight: 700;
+}
+
+.element{
+    margin: 0 50px;
+}
+
+
+#h{
+    justify-content: space-around;
+    padding: 150px 0 0 0;
+    text-align: center;
+}
+
+.hobby{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* .trip{
+    width: 80%;
+} */
+
+.trip img{  
+    width: 500px;
+    display:none;
+    animation:anime 5s;
+    margin:0 auto
+}
+
+@keyframes anime {
+    from { opacity:0; }
+	to { opacity:1; }
+}
+
+.trip_content{
+    justify-content: space-around;
+    padding: 0 0 0 10px;
+    text-align: center;
+}
+
+#s{
+    justify-content: space-around;
+    padding: 150px 0 0 0;
+    text-align: center;
+}
+
+.speciality{
+    display: flex;
+    width: 80%;
+    margin:0 auto
+}
+
+.bad img{
+    width: 70%;
+    flex-basis: 50%;
+}
+
+.bad_content{
+    justify-content: space-around;
+    padding: 0 0 0 10px;
+    flex-basis: 50%;
+    text-align: center;
+}
+
+.skill{
+    padding: 150px 0 0 0;
+}
+.three-icon{
+    display: flex;
+    justify-content: space-evenly;
+}
+#c-icon{
+    width: 70%;
+    height: 200px;
+}
+#java-icon{
+    width: 70%;
+    height: 200px;
+}
+#ruby-icon{
+    width: 70%;
+    height: 200px;
+}
+
+#html-icon{
+    width: 70%;
+    height: 200px;
+}
+
+#css-icon{
+    width: 70%;
+    height: 200px;
+}
+
+.two-icon{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.Product-content{
+    padding: 150px 0 0 0;
+}
+.product{
+    display: flex;
+}
+
+#patiris{
+    width: 100%;
+    height: 300px;
+}
+
+.teto-content{
+    justify-content: space-around;
+    padding: 0 10% 0 15%;
+}
+
+.tetoris{
+    white-space: nowrap;
+}
+
+#InfinityBullett{
+    width: 100%;
+}
+
+.bullet-content{
+    justify-content: space-around;
+    padding: 0  10% 0 0;
+}
+
+.SNS{
+    text-align:center;
+    padding: 100px 0 0 0;
+}
+
+.SNS p{
+    display: block;
+}
+
+#insta{
+    width: 50px;
+    height: 50px;
+}
+#twitter{
+    width: 50px;
+    height: 50px;
+}
+
+.top{
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background: #0c33e636;/*ボタン色*/
+    border-bottom: solid 4px #627295;
+    border-radius: 3px;
+    margin:  0 0 10px 0;
+    color: black;
+}
+
+.top:active {
+    /*ボタンを押したとき*/
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);/*下に動く*/
+    border-bottom: none;/*線を消す*/
+  }
